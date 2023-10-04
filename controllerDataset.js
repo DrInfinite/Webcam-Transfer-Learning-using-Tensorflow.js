@@ -1,6 +1,7 @@
 /* Importing the TensorFlow.js library. */
 import * as tf from '@tensorflow/tfjs';
 
+/* It takes in a number of classes and adds examples to the dataset */
 export class ControllerDataset {
     /**
      * The constructor function takes in a number of classes and assigns it to the numClasses variable.

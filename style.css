@@ -13,7 +13,7 @@
      flex-direction: column;
  }
 
-/* Removing the outline around the buttons when they are clicked. */
+ /* Removing the outline around the buttons when they are clicked. */
  button:focus {
      outline: 0;
  }
@@ -236,7 +236,7 @@
  }
 
  .dropdown .select select {
-     -webkit-appearance: none;
+     -webkit-appearance: none !important;
      -moz-appearance: none;
      background: none;
      border: none;
@@ -362,6 +362,7 @@
  }
 
  /** Footer. **/
+ /* Setting the color of the copyright text to white. */
  #copyright {
      color: #f8f8f8;
      font-weight: 300;
@@ -369,6 +370,7 @@
      text-align: center;
  }
 
+ /* A CSS rule that is used to hide the element with the id "no-webcam" when the page is loaded. */
  #no-webcam {
      display: none;
      text-align: center;
